@@ -1,0 +1,10 @@
+.authBg,
+.authAreaBg {
+    background-image: url(../assets/images/meal-bg.png);
+}
+.authAreaBg {
+    $breakpoint-tablet: 768px;
+    @media (min-width: $breakpoint-tablet) {
+        background-image: none;
+    }
+}
